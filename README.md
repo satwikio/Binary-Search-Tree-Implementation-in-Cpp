@@ -68,32 +68,32 @@ Successor of 10: 20
 In-order Traversal after deletion: 5 20
 ```
 
-##Code Structure
+## Code Structure
 
 The project is structured into two main components:
 
--**BSTNode Struct:** Defines the structure of each node in the BST, holding a key and pointers to left, right, and parent.
--**BinarySearchTree Class:** Contains methods for inserting, searching, deleting, and managing the BST, along with helper methods for additional functionality.
+- **BSTNode Struct:** Defines the structure of each node in the BST, holding a key and pointers to left, right, and parent.
+- **BinarySearchTree Class:** Contains methods for inserting, searching, deleting, and managing the BST, along with helper methods for additional functionality.
 
-##Class and Function Descriptions
+## Class and Function Descriptions
 
-###BSTNode Structure
+### BSTNode Structure
 
--Represents a node in the BST.
--Holds the key, pointers to left and right children, and a parent pointer for efficient upward traversal.
+- Represents a node in the BST.
+- Holds the key, pointers to left and right children, and a parent pointer for efficient upward traversal.
 
-##BinarySearchTree Class
+## BinarySearchTree Class
 
--**void insert(int key):** Inserts a new key into the BST.
--**bool search(int key):** Searches for a key and returns true if found, false otherwise.
--**int find_minimum():** Returns the minimum value in the BST.
--**int find_maximum():** Returns the maximum value in the BST.
--**vector<int> inorder_traversal():** Returns a vector containing the in-order traversal of the BST.
--**int find_predecessor(int value):** Finds and returns the predecessor of a specified value.
--**int find_successor(int value):** Finds and returns the successor of a specified value.
--**void delete_key(int value):** Deletes a node with the specified key.
--**int select(int ind):** Returns the k-th smallest element in the BST.
--**int rank(int value):** Finds the rank of a specified value.
+- **void insert(int key):** Inserts a new key into the BST.
+- **bool search(int key):** Searches for a key and returns true if found, false otherwise.
+- **int find_minimum():** Returns the minimum value in the BST.
+- **int find_maximum():** Returns the maximum value in the BST.
+- **vector<int> inorder_traversal():** Returns a vector containing the in-order traversal of the BST.
+- **int find_predecessor(int value):** Finds and returns the predecessor of a specified value.
+- **int find_successor(int value):** Finds and returns the successor of a specified value.
+- **void delete_key(int value):** Deletes a node with the specified key.
+- **int select(int ind):** Returns the k-th smallest element in the BST.
+- **int rank(int value):** Finds the rank of a specified value.
 
 ##Example Usage
 
