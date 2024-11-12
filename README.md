@@ -95,7 +95,7 @@ The project is structured into two main components:
 - **int select(int ind):** Returns the k-th smallest element in the BST.
 - **int rank(int value):** Finds the rank of a specified value.
 
-##Example Usage
+## Example Usage
 
 The following example demonstrates how to use the BinarySearchTree class to perform various operations on the BST.
 
