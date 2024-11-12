@@ -66,7 +66,7 @@ Rank (of 20): 2
 Predecessor of 10: 5
 Successor of 10: 20
 In-order Traversal after deletion: 5 20
-
+```
 
 ##Code Structure
 The project is structured into two main components:
