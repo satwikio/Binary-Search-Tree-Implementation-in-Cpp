@@ -69,17 +69,21 @@ In-order Traversal after deletion: 5 20
 ```
 
 ##Code Structure
+
 The project is structured into two main components:
 
 -**BSTNode Struct:** Defines the structure of each node in the BST, holding a key and pointers to left, right, and parent.
 -**BinarySearchTree Class:** Contains methods for inserting, searching, deleting, and managing the BST, along with helper methods for additional functionality.
 
 ##Class and Function Descriptions
+
 ###BSTNode Structure
+
 -Represents a node in the BST.
 -Holds the key, pointers to left and right children, and a parent pointer for efficient upward traversal.
 
 ##BinarySearchTree Class
+
 -**void insert(int key):** Inserts a new key into the BST.
 -**bool search(int key):** Searches for a key and returns true if found, false otherwise.
 -**int find_minimum():** Returns the minimum value in the BST.
@@ -91,7 +95,8 @@ The project is structured into two main components:
 -**int select(int ind):** Returns the k-th smallest element in the BST.
 -**int rank(int value):** Finds the rank of a specified value.
 
-Example Usage
+##Example Usage
+
 The following example demonstrates how to use the BinarySearchTree class to perform various operations on the BST.
 
 ```cpp
